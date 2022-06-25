@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Punktacja</title>
-    <style></style>
+    <link rel="stylesheet" href="indexstyle.css" />
 </head>
 
 <body>
@@ -14,17 +14,23 @@
         <div>
             Punktacja w yahtzee polega na wybraniu jednej z opcji, każdą opcje można wybrać w trakcie gry tylko raz i dzielą się one na dwa rodzaje:
         </div>
-        <div>Tabela górna, gdzie istnieje opcja na wybranie:</div>
-
-        <div>Jedynki</div>
-        <div>Dwójki</div>
-        <div>Trójki</div>
-        <div>Czwórki</div>
-        <div>Piątki</div>
-        <div>Szóstki</div>
         <div>
-            Wybranie jednej z tych opcji sumuje liczbę oczek z wybranej wartości. Np. wybranie opcji piątek, bierze każdą wylosowaną kostke o wyniku 5 i sumuje ich wartości
+            Tabela górna, gdzie istnieje opcja na wybranie:
+
+            <div>Jedynki</div>
+            <div>Dwójki</div>
+            <div>Trójki</div>
+            <div>Czwórki</div>
+            <div>Piątki</div>
+            <div>Szóstki</div>
+            <div>
+                Wybranie jednej z tych opcji sumuje liczbę oczek z wybranej wartości. Np. wybranie opcji piątek, bierze każdą wylosowaną kostke o wyniku 5 i sumuje ich wartości
+            </div>
+            <div>
+                Jeżeli suma tabeli górnej jest równa 63 lub więcej wtedy gracz otrzymuje bonusowe 35 punktów
+            </div>
         </div>
+        <br />
         <div>
             Drugim rodzajem jest tabela dolna, zawiera ona resztę opcji punktowania:
         </div>
@@ -37,9 +43,33 @@
         <div>
             full house: 3 kostki o jednej tej samej wartości oraz 2 kostki o innej(tej samej). Punkty 25
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+            mały straight: 4 sekwencyjne kostki(1-2-3-4, 2-3-4-5,3-4-5-6). Punkty: 30
+        </div>
+
+        <div>
+            duży straight: 5 sekwencyjnych kostek(1-2-3-4-5,2-3-4-5-6). Punkty: 40
+        </div>
+        <div>yahtzee/generał: Wszystkie kości są takie same. Punkty: 50</div>
+        <div>Szansa: Suma wszystkich kostek jako punkty</div>
+        <br />
+        <div>
+            Gracz zawsze może zaznaczyć dowolne pole w tabelce jeśli jednak nie spełnia warunków danego pola otrzymuje 0 punktów.
+        </div>
+        <br />
+        <div>
+            Yahtzee występuje gdy wszystkie 5 kości jest takie samo, jezeli gracz wyrzuci yahtzee a ma już pole yahtzee zaznaczone wartością 50 punktów wtedy dostaje yahtzee bonus i dostaje ekstra 100 punktów, jeżeli jednak ma już pole yahtzee wypełnione na 0 punktów
+            nic nie dostaje.
+        </div>
+        <br />
+        <div>
+            W każdym bądź przypadku gracz wtedy wybiera kategorie jak zwykle. Jeżeli gracz już zaznaczył odpowiadające pole wyrzuconych kostek na górnej części tabeli, może użyć dowolnego pola w dolnej części jako joker i zyskać zwykłą ilośc punktów dla tego pola.
+        </div>
+        <br />
+        <div>
+            <div><a href="index.html">k to main page</a></div>
+            <div><a href="Czapel.html">strategy</a></div>
+        </div>
     </div>
 </body>
 
