@@ -35,27 +35,13 @@ body{
 	width: 340px;
 	margin: 5px;
 	font-size: 25px;
+	-webkit-transition: color 0.3s ease-out;
+	-moz-transition: color 0.3s ease-out;
+	-o-transition: color 0.3s ease-out;
+	-ms-transition: color 0.3s ease-out;
+	transition: color 0.3s ease-out;
 }
 
-
-
- /*
-.button{
-	text-align: center;
+#b1:hover, #b2:hover{
+	color: #E8B90E;
 }
-
-#b1{
-	display: inline-block;
-    width:120px;
-    height:120px;
-	float: left;
-}
-*/
-/*
-#b2{
-	display: inline-block;
-    width:120px;
-    height:120px;
-	float: left;
-}
-*/
